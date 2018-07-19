@@ -1,0 +1,307 @@
+body{
+	background-color:#9cd8d8;
+
+}
+.container-fluid{
+	background-color:#9cd8d8;
+	padding-top: 25px;
+	size: 100%;
+	height: 100%;
+}
+.pro-con{
+	background: #f4f8ff;
+	padding-left: 1vw;
+	margin-left: 1vw;
+	overflow-x: hidden;
+	height: 93vh;
+}
+.profile-row{
+	background: #2ca5a5;
+	padding: 0px;
+	margin:0px;
+}
+.pic
+{
+	height: 2.5em;
+	width: 2.5em;
+	border-radius: 50%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.pro-con{
+	padding:0em;
+}
+
+.search-row{
+	background: #2ca5a5;
+}
+.material-icons
+{ 
+	padding: 0.5em;
+	color: rgba(255, 255, 255, 1); 
+
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #e0ffff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */    
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.material-icons.md-48 { 
+	font-size: 48px; 
+}
+.prof{
+	color: white;
+	padding-top: 2em;
+	align-items: center;
+}
+.pic1
+{
+	height: 10em;
+	width: 10em;
+	border-radius: 50%;
+	margin-top:3em;
+	margin-bottom:3em; 
+	margin-left: 8em;
+}
+.top1{
+	background: #248282;
+}	
+.details{
+	background: #f4fcfa
+}
+.yourname-abt{
+color: #248282;
+size: 5em;
+}
+.convos .container
+{
+	margin: 0;
+	padding:0;
+}
+
+.pic2
+{
+	height: 3.5em;
+	width: 3.5em;
+	border-radius: 50%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
+}
+.name-msg{
+	padding: 0;
+	margin-bottom: 0.5em;
+}
+.name-msg p{
+	margin: 0;
+
+}
+
+.f-name{
+	font-weight: bold;
+	color: #2ca5a5;
+}
+.f-msg{
+	font-size: 1em;
+
+}
+.time-read{
+	padding: 0;
+	margin: 0;
+
+}
+.msg-time{
+	margin-top: 0.2em;
+	margin-bottom: 0;
+	color: #2ca5a5;
+	font-size: 0.8em;
+	font-weight: bolder;
+}
+
+.unread{
+	  background-color: #2ca5a5;
+  
+  border-radius: 999px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 20px;
+  overflow: hidden;
+  height: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Helvetica Neue Bold';
+  font-size: 18px;
+  vertical-align: -3px;
+  line-height: 9px;
+}
+
+hr{
+	      border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.messages{
+	background-image: url(http://worldartsme.com/images/alphabet-letters-k-clipart-1.jpg);
+	padding-left: 0;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.name-pic{
+	background: #2ca5a5;
+	border-left: #f4f8ff solid  1px;
+	border-right: #f4f8ff solid 1px;
+
+	
+
+}
+.con-pic{
+	padding: 0;
+	margin-left: 1em;
+}
+.con-name{
+	padding: 0;
+	margin-top: 0.9em;
+	font-weight: bold;
+	color: white;
+
+}
+.messages-finally{
+	background: #f4f8ff;
+	height: 84.5vh;
+	overflow-y: auto;
+	border:#088989 solid 2px;
+}
+.messages-finally .recv {
+    border: 0.125em solid white;
+    background-color: #088989;
+    border-radius: 0.938em 3.125em 1.875em 0.313em;
+    padding: 0.625;
+    margin: 0.625em 0;
+    color: white;
+    width: 85%;
+    text-align: left;	
+}
+.messages-finally .send {
+    border: 2px solid white;
+    background-color: #088989;
+    border-radius: 3.125em 0.938em 0.313em 1.875em ;
+    padding: 0.625em;
+    margin: 0.625em 0;
+    color: white;
+    width: 85%;
+    margin-left:7em;
+    text-align: right;	
+}
+.time-right{
+	float: right;
+	font-size: 0.7em;
+}
+.messages1{
+	display: none;
+}
+.recv .time-right{
+	float: left;
+	font-size: 0.7em;
+}
+.sendmsg input{
+
+	width: 80vw;
+}
+.sendmsg{
+	
+	background: white;
+	margin-left: 0;
+	width: 100%;
+}
+
+.old .msg-time{
+	margin-top: 0.2em;
+	margin-bottom: 0;
+	color: black;
+	font-size: 0.8em;
+	
+}
+.ChangePic{
+	justify-content: center;
+	margin-left: 6em;
+	margin-right: 6em;
+}
+
+.roon{
+	padding: 0;
+}
+
+
+
+
+
+@media screen and (max-height: 576px) and (max-width: 320px) 
+{
+	.row .details{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.messages{
+		width: 100%;
+		height: 100%;
+
+	}
+	.sidenav{
+		max-width: 100%;
+		max-height: 100%;
+		overflow-x: hidden;
+
+	}
+	.con-name{
+		float: right;
+		text-align: right;
+	}
+	.recv .send{
+		width: 50vw;
+		margin-left: 2em;
+	}
+	.messages-finally{
+		width: 100vw;
+		overflow-x: hidden;
+		margin: 0;
+	}
+	.messages1{
+		padding: 0;
+	}
+	.container .send{
+		padding: 0;
+		margin-left:3em;
+	}
+
+}
+@media screen and (min-height: 576px) and (min-width: 320px) 
+{
+	.messages1{
+		width: 60vw;
+		overflow-x: hidden;
+		padding-left: 0;
+	}
+	.messages-finally{
+		overflow-x: hidden;
+		margin-left: 0;
+		padding-left: 0;
+		max-height: 100%;
+	}
+	.roon{
+		height: 80vh;
+	}
+	.container .send{
+		margin-left: 3.5em;
+	}
+}
+
