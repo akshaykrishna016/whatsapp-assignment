@@ -304,4 +304,11 @@ hr{
 		margin-left: 3.5em;
 	}
 }
+@media screen and (min-height: 600px) and (min-width: 1900px)
+{
+	.messages1{
+		margin:0;
+	}
+} 
+
 
