@@ -315,7 +315,7 @@ hr{
 	}
 } 
 
-@media screen and (min-height: 1900px)
+@media screen and (min-width: 1900px) 
 {
 	.messages1{
 		margin:0;
